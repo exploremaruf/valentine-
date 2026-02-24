@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Valentine's Day ❤️</h1>
+        <p class="message">
+            You are special, you are loved, and you make my world beautiful.
+        </p>
+
+        <button onclick="showLove()">Click for a Surprise 💌</button>
+
+        <p id="surprise" class="hidden">
+            I Love You So Much! 💖
+        </p>
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById("surprise").classList.remove("hidden");
+        }
+    </script>
+
+</body>
+</html>
