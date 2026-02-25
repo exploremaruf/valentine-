@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Happy Valentine ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         <h1>Happy Valentine's Day ❤️</h1>
+
         <p class="message">
             You are special, you are loved, and you make my world beautiful.
         </p>
@@ -22,7 +24,8 @@
 
     <script>
         function showLove() {
-            document.getElementById("surprise").classList.remove("hidden");
+            const surprise = document.getElementById("surprise");
+            surprise.classList.toggle("hidden");
         }
     </script>
 
